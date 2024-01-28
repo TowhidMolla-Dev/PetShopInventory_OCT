@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bm_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/bm_cage"
+        android:title="Cage"
+        android:icon="@drawable/ic_cage"
+
+
+        />
+
+    <item
+        android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/bm_schedule"
+        android:title="Schedule"
+        android:icon="@drawable/ic_schedule"/>
+
+    <item
+        android:id="@+id/bm_analytics"
+        android:title="Analytics"
+        android:icon="@drawable/ic_analytics"/>
+
+</menu>
