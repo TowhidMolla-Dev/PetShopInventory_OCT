@@ -1,9 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f4f5ed"
+    android:orientation="vertical"
     tools:context=".UpdateActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="28dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_fas_arrow_left" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Data"
+                android:textAlignment="center"
+                android:textColor="@color/green_ui"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/updateImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_update" />
+
+            <EditText
+                android:id="@+id/updateTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter pet name"
+                android:padding="16dp"
+                android:textColor="@color/green_ui" />
+
+            <EditText
+                android:id="@+id/updateDesc"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter description"
+                android:padding="16dp"
+                android:textColor="@color/green_ui" />
+
+            <EditText
+                android:id="@+id/updateLang"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter cage no"
+                android:inputType="number"
+                android:padding="16dp"
+                android:textColor="@color/green_ui" />
+
+            <EditText
+                android:id="@+id/updateSellerName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter seller name"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/green_ui" />
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Update"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
