@@ -3,31 +3,30 @@
 
     <item
         android:id="@+id/bm_home"
-        android:title="Home"
         android:icon="@drawable/ic_home"
-        android:iconTint="@color/white"/>
+        android:title="Home" />
 
     <item
         android:id="@+id/bm_cage"
-        android:title="Cage"
         android:icon="@drawable/ic_cage"
+        android:title="Cage"
 
 
         />
 
     <item
-        android:id="@+id/fab"
-        android:title=""
-        android:enabled="false"/>
+        android:id="@+id/bm_fab"
+        android:enabled="false"
+        android:title="" />
 
     <item
         android:id="@+id/bm_schedule"
-        android:title="Schedule"
-        android:icon="@drawable/ic_schedule"/>
+        android:icon="@drawable/ic_schedule"
+        android:title="Schedule" />
 
     <item
         android:id="@+id/bm_analytics"
-        android:title="Analytics"
-        android:icon="@drawable/ic_analytics"/>
+        android:icon="@drawable/ic_analytics"
+        android:title="Analytics" />
 
 </menu>

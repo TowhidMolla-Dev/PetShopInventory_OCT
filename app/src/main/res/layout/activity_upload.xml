@@ -10,9 +10,9 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
@@ -50,13 +50,25 @@
                 android:src="@drawable/ic_upload" />
 
             <EditText
-                android:id="@+id/uploadTopic"
+                android:id="@+id/uploadPetName"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/border"
                 android:gravity="start|center_vertical"
                 android:hint="Enter pet name"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/green_ui" />
+
+            <EditText
+                android:id="@+id/uploadPetType"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter pet type"
                 android:inputType="text"
                 android:padding="16dp"
                 android:textColor="@color/green_ui" />
@@ -73,7 +85,7 @@
                 android:textColor="@color/green_ui" />
 
             <EditText
-                android:id="@+id/uploadLang"
+                android:id="@+id/uploadCage"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="10dp"
@@ -85,7 +97,7 @@
                 android:textColor="@color/green_ui" />
 
             <EditText
-                android:id="@+id/uploadLang"
+                android:id="@+id/uploadSellerName"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="10dp"
@@ -95,6 +107,42 @@
                 android:inputType="text"
                 android:padding="16dp"
                 android:textColor="@color/green_ui" />
+            <EditText
+                android:id="@+id/uploadSellerAddress"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter seller Address"
+                android:padding="16dp"
+                android:textColor="@color/green_ui" />
+
+            <EditText
+                android:id="@+id/uploadPrice"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Price"
+                android:inputType="number"
+                android:padding="16dp"
+                android:textColor="@color/green_ui" />
+
+            <EditText
+                android:id="@+id/UploadDate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="start|center_vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:padding="16dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="Enter date" />
 
 
             <Button
