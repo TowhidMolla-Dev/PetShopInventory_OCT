@@ -58,6 +58,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
                 intent.putExtra("Seller Address",dataList.get(holder.getAdapterPosition()).getDataSellerAdress());
                 intent.putExtra("Price",dataList.get(holder.getAdapterPosition()).getDataPetPrice());
                 intent.putExtra("Purchase Date",dataList.get(holder.getAdapterPosition()).getDataPurchaseDate());
+                intent.putExtra("Food Schedule",dataList.get(holder.getAdapterPosition()).getDataSchedule());
+
                 context.startActivity(intent);
             }
         });

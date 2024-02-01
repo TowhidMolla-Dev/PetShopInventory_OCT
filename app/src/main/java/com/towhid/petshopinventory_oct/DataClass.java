@@ -16,7 +16,7 @@ public class DataClass {
         return dataSchedule;
     }
 
-    public DataClass(String dataSchedule) {
+    public DataClass(String dataSchedule, String desc, String cage, String imageUrl) {
         this.dataSchedule = dataSchedule;
     }
 

@@ -73,7 +73,7 @@
                 android:textColor="@color/green_ui" />
 
             <EditText
-                android:id="@+id/updateLang"
+                android:id="@+id/updateCage"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="@dimen/_10sdp"

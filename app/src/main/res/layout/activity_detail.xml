@@ -30,7 +30,7 @@
                 android:src="@drawable/ic_fas_arrow_left" />
 
             <TextView
-                android:id="@+id/detailTitle"
+                android:id="@+id/detailPetName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -52,17 +52,6 @@
             app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
 
 
-        <TextView
-            android:id="@+id/detailPetName"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/border"
-            android:gravity="start|center_vertical"
-            android:textSize="@dimen/_18ssp"
-            android:padding="16dp"
-            android:textColor="@color/green_ui" />
 
         <TextView
             android:id="@+id/detailPetType"
@@ -81,7 +70,6 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/border"
             android:gravity="start|center_vertical"
-
             android:padding="16dp"
             android:textColor="@color/green_ui" />
 
@@ -105,7 +93,7 @@
             android:padding="16dp"
             android:textColor="@color/green_ui" />
         <TextView
-            android:id="@+id/uploadSellerAddress"
+            android:id="@+id/detailSellerAddress"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
@@ -115,7 +103,7 @@
             android:textColor="@color/green_ui" />
 
         <TextView
-            android:id="@+id/uploadPrice"
+            android:id="@+id/detailPrice"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
@@ -125,7 +113,7 @@
             android:textColor="@color/green_ui" />
 
         <TextView
-            android:id="@+id/UploadDate"
+            android:id="@+id/detailDate"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:gravity="start|center_vertical"
