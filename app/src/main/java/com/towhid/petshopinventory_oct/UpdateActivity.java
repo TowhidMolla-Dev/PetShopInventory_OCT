@@ -70,7 +70,7 @@ public class UpdateActivity extends AppCompatActivity {
             Glide.with(UpdateActivity.this).load(bundle.getString("Image")).into(updateImage);
             updateTitle.setText(bundle.getString("Title"));
             updateDesc.setText(bundle.getString("Description"));
-            updateCage.setText(bundle.getString("Language"));
+            updateCage.setText(bundle.getString("Cage No"));
             key = bundle.getString("Key");
             oldImageURL = bundle.getString("Image");
         }
@@ -87,7 +87,7 @@ public class UpdateActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 saveData();
-                Intent intent = new Intent(UpdateActivity.this, HomeFragment.class);
+                Intent intent = new Intent(UpdateActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
